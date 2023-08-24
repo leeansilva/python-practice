@@ -1,0 +1,17 @@
+GET http://localhost:8000/
+
+###
+
+GET http://localhost:8000/0
+
+###
+
+POST http://localhost:8000/?dato=El%20dato
+
+###
+
+PUT http://localhost:8000/0?dato=NuevoDato
+
+###
+
+DELETE http://localhost:8000/0
